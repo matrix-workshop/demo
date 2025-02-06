@@ -34,6 +34,6 @@ jobs:
         uses: actions/upload-artifact@v4.6.0
         with:
           name: demo-build-artifact
-          path: ${{ github_workspace }}
+          path: ${{ github.workspace }}
     
   
